@@ -17,7 +17,6 @@ int read_integer(void) {
 int main() {
     int sum = 0, count = 0, number = 0;
 
-    // Initial prompt
     printf("Enter positive number. Negative to stop: ");
 
     while (1) {
