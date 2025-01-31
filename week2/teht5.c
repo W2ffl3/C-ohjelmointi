@@ -29,7 +29,7 @@ int read_range(int low, int high) {
     int input;
     while (1) {
         if (scanf("%d", &input) != 1) { // Check if the input is an integer
-            while (getchar() != '\n');  // Clear buffer
+            while (getchar() != '\n')  // Clear buffer
             printf("Invalid input. Please enter a number between %d and %d: ", low, high);
         } else if (input < low || input > high) { // Check input range
             printf("Invalid input. Please enter a number between %d and %d: ", low, high);
