@@ -6,11 +6,11 @@ int read_integer(void) {
         if (scanf("%d", &num) == 1) {
             return num; // Successfully read an integer
         }
-        // Error handling for invalid input
-        printf("Invalid input\n");
+
+        printf("Invalid input\n");  // Error handling for invalid input
         printf("Enter positive number. Negative to stop: ");
-        // Clear input buffer
-        while (getchar() != '\n');
+
+        while (getchar() != '\n');  // Clear input buffer
     }
 }
 
@@ -32,8 +32,7 @@ int main() {
         printf("Enter positive number. Negative to stop: ");
     }
 
-    // Calculate and display the average
-    if (count > 0) {
+    if (count > 0) {    // Calculate and display the average
         double average = (double)sum / count;
         printf("You entered %d positive numbers. The average is: %.3f\n", count, average);
     } else {
