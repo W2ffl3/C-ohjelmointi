@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 #define NUM_MONTHS 12
 
 int main() {
