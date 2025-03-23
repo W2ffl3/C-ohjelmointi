@@ -8,8 +8,6 @@ add_executable(C_kurssi main.c
         week1/teht2.c
         week1/teht3.c
         week2/teht4.c
-        "VILLE tehtävät/introduction.c"
-        "VILLE tehtävät/programming1_1.c"
         week2/teht5.c
         week2/teht6.c
         week3/teht7.c
