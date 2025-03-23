@@ -1,10 +1,11 @@
 ------------------------------------------
-Student: Jani
+Student: John Deere
 ------------------------------------------
 Subject                 Score       Grade
 ------------------------------------------
-Python                    80%          4         
-C Programming             90%          5         
+C Programming             85%          4         
+Python                    92%          5         
+Computer Architecture     68%          2         
 ------------------------------------------
-Average Grade: 4.50
+Average Grade: 3.67
 ------------------------------------------
